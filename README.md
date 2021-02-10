@@ -17,4 +17,6 @@ Queries (queries.sql)
 
 5- To get the first name, last name and sex for employees whose first name was "Hercules" and last name started with a "b" we first retrieved first name, last name, ad sex from the Employee table. We then used a WHERE statement to say that the first name must equal "Hercules and a SUBSTRING statement to retrieve the first character in the last name and make sure it was equal to "B"
 
-6- 
+6- We wanted to take a look at the Sales Department. We wanted their employee number, last name, first name nad department name. We queried the Employee data for the first and last name. We inner joined dept_emp with Employee on emp_no We then inner joined Departments on dept_no to get the department name. At the end we used a WHERE statement to make sure that the dept_no equaled 'd007' which was the code for the sales department.
+
+7- 
