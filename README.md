@@ -20,3 +20,5 @@ Queries (queries.sql)
 6- We wanted to take a look at the Sales Department. We wanted their employee number, last name, first name nad department name. We queried the Employee data for the first and last name. We inner joined dept_emp with Employee on emp_no We then inner joined Departments on dept_no to get the department name. At the end we used a WHERE statement to make sure that the dept_no equaled 'd007' which was the code for the sales department.
 
 7- This was similar to the previous analysis. Instead we wanted to grab employees from both the Sales and Development departments. In order to do so we used the same approach as 6 but at the end the WHERE statement became boolean where dept_no could equal d007 (Sales) or d005 (Development).
+
+8- We checked the frequency of last names and ordered them by highest occurence to lowest occurence within the company. We pulled last name and count of last name from Employees table and grouped by last name. We then arranged their order in descending popularity with and ORDER BY command.
