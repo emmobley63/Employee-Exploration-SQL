@@ -1,4 +1,4 @@
-# sql-challenge
+# Employee Exploration SQL
 
 Employee Database
 
